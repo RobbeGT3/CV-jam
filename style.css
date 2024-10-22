@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    background-color: #cabfcd;
+}
+
+section{
+    border: 1px solid black;
+    margin: 2em 10%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.topContainer{
+    display: grid;
+}
+
+.topItem{
+    background-color: aliceblue;
+}
