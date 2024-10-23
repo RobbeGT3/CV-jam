@@ -1,17 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Webpage</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <img src="Kanye.jpg" alt="Placeholder Image" />
+        <div class="header-text">
+          <h1>Robbe van Kooten</h1>
+          <h4>Front End Developer | Motivated | Back End Developer</h4>
+          <div class="headercontainer">
+            <button>Download CV</button>
+            <button>Contact</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
     <section>
-        <div>test</div>
-        <div></div>
+      <div class="navbar">
+        <a href="#overmij">Over mij</a>
+        <a href="#skills">Skills</a>
+        <a href="#projecten">My Projecten</a>
+        <a href="#ervaring">Ervaring</a>
+        <a href="#opleiding">Opleiding</a>
+      </div>
     </section>
-    <nav></nav>
-    <section>test</section>
-</body>
+
+    <section id="overmij">
+      <h1>over mij</h1>
+      <p>Mij naam is Robbe van Kooten, ik ben 22 jaar oud en kom uit Lelystad.</p>
+    </section>
+    <section id="skills" class="categorie">
+        <h3>Skills</h3>
+        <p></p>
+    </section>
+    <hr>
+    <section id="projecten" class="categorie">
+      <h1>Mij Projecten</h1>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="maxresdefault.jpg" alt="Flevoland TukTuk" />
+          <h2 class="project-title">Flevoland TukTuk</h2>
+          <p class="project-description">
+            Hierbij heb ik samen met wat klasgenoten gezamelijk een wordpress
+            website gemaakt voor Flevoland tuktuk
+          </p>
+        </div>
+        <div class="project-card">
+          <img src="1698604163003.png" alt="Flevoland TukTuk" />
+          <h2 class="project-title">Javascript Yahtzee</h2>
+          <p class="project-description">
+            Hierbij heb ik samen met wat klasgenoten gezamelijk een wordpress
+            website gemaakt voor Flevoland Tuktuk. Dit is een bedrijf dat tuktuks verhuurt in flevoland en mensen de mogelijkheid geeft om verschillende 
+          </p>
+        </div>
+        <div class="project-card">
+          <img src="HTMLCSS.jpg" alt="Flevoland TukTuk" />
+          <h2 class="project-title">HTML CSS website</h2>
+          <p class="project-description">
+            Voor de front-end lessen heb ik een HTML website moeten maken met
+            daarbij een CSS stylesheet. Deze ging over de 24 uur van Le-Mans, en
+            bevatten een contactpage met form en ondere andere een flexbox en
+            grid.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="opleiding" class="categorie"></section>
+    <section id="ervaring" class="categorie"></section>
+  </body>
 </html>
